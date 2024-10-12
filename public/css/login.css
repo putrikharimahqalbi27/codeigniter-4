@@ -1,0 +1,19 @@
+body {
+    background-color: #f8f9fa; /* Warna latar belakang (abu-abu terang) */
+    background-image: url('../images/background.jpg');
+
+    background-size: cover; /* Memastikan gambar menutupi seluruh latar belakang */
+    background-position: center; /* Memposisikan gambar di tengah */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+    height: 100vh; /* Tinggi halaman 100% dari viewport */
+    display: flex; /* Menggunakan flexbox untuk memusatkan konten */
+    justify-content: center; /* Memusatkan secara horizontal */
+    align-items: center; /* Memusatkan secara vertikal */
+}
+
+.login-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Warna putih dengan transparansi 80% */
+    padding: 20px; /* Ruang dalam kotak login */
+    border-radius: 10px; /* Sudut kotak login membulat */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Bayangan lembut di sekitar kotak login */
+}

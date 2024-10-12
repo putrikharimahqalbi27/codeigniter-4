@@ -1,0 +1,21 @@
+body {
+    background-image: url('/images/background.jpg'); /* Ganti dengan lokasi file gambar */
+    background-size: cover; /* Membuat gambar memenuhi seluruh layar */
+    background-position: center; /* Membuat gambar berada di tengah */
+    background-repeat: no-repeat; /* Menghindari gambar terulang */
+    height: 100vh; /* Tinggi halaman 100% dari tinggi layar */
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Membuat form login berada di tengah vertikal */
+}
+
+.login-box {
+    background-color: rgba(255, 255, 255, 0.9); /* Warna putih dengan transparansi */
+    padding: 20px; /* Spasi di dalam kotak login */
+    border-radius: 10px; /* Membuat tepi kotak membulat */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}

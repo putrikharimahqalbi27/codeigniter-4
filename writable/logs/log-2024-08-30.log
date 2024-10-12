@@ -1,0 +1,812 @@
+INFO - 2024-08-30 01:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 01:38:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-30 01:38:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: DashboardAnggota]
+in APPPATH\Views\v_dashboard_anggota.php on line 6.
+ 1 APPPATH\Views\v_dashboard_anggota.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_dashboard_anggota', [], true)
+ 5 APPPATH\Views\v_template_anggota.php(169): view('v_dashboard_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template_anggota.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_template_anggota', [], true)
+ 9 APPPATH\Controllers\DashboardAnggota.php(26): view('v_template_anggota', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 01:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:45:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-30 01:45:32 --> ErrorException: Undefined array key "id_anggota"
+[Method: POST, Route: Auth/CekLoginAnggota]
+in APPPATH\Controllers\Auth.php on line 233.
+ 1 APPPATH\Controllers\Auth.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_anggota"', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Controllers\\Auth.php', 233)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->CekLoginAnggota()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 01:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-30 01:49:18 --> ErrorException: Undefined array key "id_anggota"
+[Method: POST, Route: Auth/CekLoginAnggota]
+in APPPATH\Controllers\Auth.php on line 233.
+ 1 APPPATH\Controllers\Auth.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_anggota"', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Controllers\\Auth.php', 233)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->CekLoginAnggota()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 01:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-30 01:49:33 --> ErrorException: Undefined array key "id_anggota"
+[Method: POST, Route: Auth/CekLoginAnggota]
+in APPPATH\Controllers\Auth.php on line 233.
+ 1 APPPATH\Controllers\Auth.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_anggota"', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Controllers\\Auth.php', 233)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->CekLoginAnggota()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 01:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-30 01:53:54 --> ErrorException: Undefined array key "id_anggota"
+[Method: POST, Route: Auth/CekLoginAnggota]
+in APPPATH\Controllers\Auth.php on line 233.
+ 1 APPPATH\Controllers\Auth.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_anggota"', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Controllers\\Auth.php', 233)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->CekLoginAnggota()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 01:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-30 01:53:57 --> ErrorException: Undefined array key "id_anggota"
+[Method: POST, Route: Auth/CekLoginAnggota]
+in APPPATH\Controllers\Auth.php on line 233.
+ 1 APPPATH\Controllers\Auth.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_anggota"', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Controllers\\Auth.php', 233)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->CekLoginAnggota()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 01:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-30 01:58:15 --> ErrorException: Undefined array key "id_anggota"
+[Method: POST, Route: Auth/CekLoginAnggota]
+in APPPATH\Controllers\Auth.php on line 233.
+ 1 APPPATH\Controllers\Auth.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_anggota"', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Controllers\\Auth.php', 233)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->CekLoginAnggota()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 01:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 01:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-30 01:59:11 --> ErrorException: Undefined array key "id_anggota"
+[Method: POST, Route: Auth/CekLoginAnggota]
+in APPPATH\Controllers\Auth.php on line 233.
+ 1 APPPATH\Controllers\Auth.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_anggota"', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Controllers\\Auth.php', 233)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->CekLoginAnggota()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 02:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-30 02:00:20 --> ErrorException: Undefined array key "id_anggota"
+[Method: POST, Route: Auth/CekLoginAnggota]
+in APPPATH\Controllers\Auth.php on line 233.
+ 1 APPPATH\Controllers\Auth.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_anggota"', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Controllers\\Auth.php', 233)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->CekLoginAnggota()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-30 02:01:36 --> ErrorException: Undefined array key "id_anggota"
+[Method: POST, Route: Auth/CekLoginAnggota]
+in APPPATH\Controllers\Auth.php on line 233.
+ 1 APPPATH\Controllers\Auth.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_anggota"', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Controllers\\Auth.php', 233)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->CekLoginAnggota()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 02:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 02:02:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-30 02:02:27 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: DashboardAnggota]
+in APPPATH\Views\v_dashboard_anggota.php on line 6.
+ 1 APPPATH\Views\v_dashboard_anggota.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_dashboard_anggota', [], true)
+ 5 APPPATH\Views\v_template_anggota.php(169): view('v_dashboard_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template_anggota.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_template_anggota', [], true)
+ 9 APPPATH\Controllers\DashboardAnggota.php(27): view('v_template_anggota', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 02:03:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-30 02:03:43 --> ErrorException: Undefined variable $id_anggota
+[Method: GET, Route: DashboardAnggota]
+in APPPATH\Views\v_dashboard_anggota.php on line 6.
+ 1 APPPATH\Views\v_dashboard_anggota.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_anggota', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_dashboard_anggota', [], true)
+ 5 APPPATH\Views\v_template_anggota.php(169): view('v_dashboard_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template_anggota.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_template_anggota', [], true)
+ 9 APPPATH\Controllers\DashboardAnggota.php(27): view('v_template_anggota', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 02:04:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-30 02:04:14 --> ErrorException: Undefined variable $ModelAnggota
+[Method: GET, Route: DashboardAnggota]
+in APPPATH\Views\v_dashboard_anggota.php on line 6.
+ 1 APPPATH\Views\v_dashboard_anggota.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ModelAnggota', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_dashboard_anggota', [], true)
+ 5 APPPATH\Views\v_template_anggota.php(169): view('v_dashboard_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template_anggota.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_template_anggota', [], true)
+ 9 APPPATH\Controllers\DashboardAnggota.php(27): view('v_template_anggota', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 02:04:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-30 02:04:21 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: DashboardAnggota]
+in APPPATH\Views\v_dashboard_anggota.php on line 6.
+ 1 APPPATH\Views\v_dashboard_anggota.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_dashboard_anggota', [], true)
+ 5 APPPATH\Views\v_template_anggota.php(169): view('v_dashboard_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template_anggota.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_template_anggota', [], true)
+ 9 APPPATH\Controllers\DashboardAnggota.php(27): view('v_template_anggota', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 02:05:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-30 02:05:15 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: DashboardAnggota]
+in APPPATH\Views\v_dashboard_anggota.php on line 6.
+ 1 APPPATH\Views\v_dashboard_anggota.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_dashboard_anggota', [], true)
+ 5 APPPATH\Views\v_template_anggota.php(169): view('v_dashboard_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template_anggota.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_template_anggota', [], true)
+ 9 APPPATH\Controllers\DashboardAnggota.php(27): view('v_template_anggota', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 02:07:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-30 02:07:28 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: DashboardAnggota]
+in APPPATH\Views\v_dashboard_anggota.php on line 6.
+ 1 APPPATH\Views\v_dashboard_anggota.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_dashboard_anggota', [], true)
+ 5 APPPATH\Views\v_template_anggota.php(169): view('v_dashboard_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template_anggota.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_template_anggota', [], true)
+ 9 APPPATH\Controllers\DashboardAnggota.php(27): view('v_template_anggota', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 02:08:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 02:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 02:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 02:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 02:09:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 02:10:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-30 02:10:35 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: DashboardAnggota]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(897): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\DashboardAnggota.php(25): CodeIgniter\Model->__get('ProfileAnggota')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 02:10:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 02:13:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-30 02:13:35 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: DashboardAnggota]
+in APPPATH\Views\v_dashboard_anggota.php on line 6.
+ 1 APPPATH\Views\v_dashboard_anggota.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_dashboard_anggota', [], true)
+ 5 APPPATH\Views\v_template_anggota.php(169): view('v_dashboard_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template_anggota.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_template_anggota', [], true)
+ 9 APPPATH\Controllers\DashboardAnggota.php(27): view('v_template_anggota', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 02:14:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 02:14:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-30 02:14:59 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: DashboardAnggota]
+in APPPATH\Views\v_dashboard_anggota.php on line 12.
+ 1 APPPATH\Views\v_dashboard_anggota.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_dashboard_anggota', [], true)
+ 5 APPPATH\Views\v_template_anggota.php(169): view('v_dashboard_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template_anggota.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_template_anggota', [], true)
+ 9 APPPATH\Controllers\DashboardAnggota.php(27): view('v_template_anggota', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 02:15:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-30 02:15:38 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: DashboardAnggota]
+in APPPATH\Views\v_dashboard_anggota.php on line 9.
+ 1 APPPATH\Views\v_dashboard_anggota.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_dashboard_anggota', [], true)
+ 5 APPPATH\Views\v_template_anggota.php(169): view('v_dashboard_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template_anggota.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_template_anggota', [], true)
+ 9 APPPATH\Controllers\DashboardAnggota.php(27): view('v_template_anggota', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 02:15:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 02:17:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 02:17:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 02:17:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 02:22:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 02:24:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-30 02:24:01 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: DashboardAnggota]
+in APPPATH\Views\v_dashboard_anggota.php on line 16.
+ 1 APPPATH\Views\v_dashboard_anggota.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_dashboard_anggota', [], true)
+ 5 APPPATH\Views\v_template_anggota.php(169): view('v_dashboard_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template_anggota.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_template_anggota', [], true)
+ 9 APPPATH\Controllers\DashboardAnggota.php(27): view('v_template_anggota', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 02:24:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-30 02:24:17 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: DashboardAnggota]
+in APPPATH\Views\v_dashboard_anggota.php on line 16.
+ 1 APPPATH\Views\v_dashboard_anggota.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_dashboard_anggota', [], true)
+ 5 APPPATH\Views\v_template_anggota.php(169): view('v_dashboard_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template_anggota.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_template_anggota', [], true)
+ 9 APPPATH\Controllers\DashboardAnggota.php(27): view('v_template_anggota', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 02:24:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-30 02:24:36 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: DashboardAnggota]
+in APPPATH\Views\v_dashboard_anggota.php on line 16.
+ 1 APPPATH\Views\v_dashboard_anggota.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_dashboard_anggota', [], true)
+ 5 APPPATH\Views\v_template_anggota.php(169): view('v_dashboard_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template_anggota.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_template_anggota', [], true)
+ 9 APPPATH\Controllers\DashboardAnggota.php(27): view('v_template_anggota', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 02:26:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-30 02:26:01 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: DashboardAnggota]
+in APPPATH\Views\v_dashboard_anggota.php on line 12.
+ 1 APPPATH\Views\v_dashboard_anggota.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_dashboard_anggota', [], true)
+ 5 APPPATH\Views\v_template_anggota.php(169): view('v_dashboard_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template_anggota.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_template_anggota', [], true)
+ 9 APPPATH\Controllers\DashboardAnggota.php(27): view('v_template_anggota', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 02:26:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-30 02:26:24 --> ErrorException: Undefined variable $tbl_anggota
+[Method: GET, Route: DashboardAnggota]
+in APPPATH\Views\v_dashboard_anggota.php on line 12.
+ 1 APPPATH\Views\v_dashboard_anggota.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbl_anggota', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_dashboard_anggota', [], true)
+ 5 APPPATH\Views\v_template_anggota.php(169): view('v_dashboard_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template_anggota.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_template_anggota', [], true)
+ 9 APPPATH\Controllers\DashboardAnggota.php(27): view('v_template_anggota', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 02:49:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-30 02:49:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: DashboardAnggota]
+in APPPATH\Views\v_dashboard_anggota.php on line 12.
+ 1 APPPATH\Views\v_dashboard_anggota.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_dashboard_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_dashboard_anggota', [], true)
+ 5 APPPATH\Views\v_template_anggota.php(169): view('v_dashboard_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template_anggota.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_template_anggota', [], true)
+ 9 APPPATH\Controllers\DashboardAnggota.php(27): view('v_template_anggota', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 02:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 02:49:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 04:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 04:01:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 04:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 04:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 04:01:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 04:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 04:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 05:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 05:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 05:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 05:31:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 05:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 05:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-30 05:37:44 --> ErrorException: Undefined variable $web
+[Method: GET, Route: /]
+in APPPATH\Views\v_template.php on line 24.
+ 1 APPPATH\Views\v_template.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $web', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_template', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-30 05:39:29 --> ErrorException: Undefined variable $web
+[Method: GET, Route: /]
+in APPPATH\Views\v_template.php on line 24.
+ 1 APPPATH\Views\v_template.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $web', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_template', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-30 05:40:13 --> ErrorException: Undefined variable $web
+[Method: GET, Route: /]
+in APPPATH\Views\v_template.php on line 24.
+ 1 APPPATH\Views\v_template.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $web', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_template', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-30 05:43:43 --> ErrorException: Undefined array key "bmn_univ"
+[Method: GET, Route: /]
+in APPPATH\Views\v_template.php on line 109.
+ 1 APPPATH\Views\v_template.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bmn_univ"', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template.php', 109)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_template', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-30 05:44:08 --> ErrorException: Undefined array key "bmn_univ"
+[Method: GET, Route: /]
+in APPPATH\Views\v_template.php on line 109.
+ 1 APPPATH\Views\v_template.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bmn_univ"', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template.php', 109)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_template', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-30 05:44:11 --> ErrorException: Undefined array key "nama_sekolah"
+[Method: GET, Route: /]
+in APPPATH\Views\v_template.php on line 109.
+ 1 APPPATH\Views\v_template.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_sekolah"', 'C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template.php', 109)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\bmnunsulbar\\app\\Views\\v_template.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('v_template', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('v_template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 05:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 05:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 05:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 05:53:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 05:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 05:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 05:54:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 05:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 05:54:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardAnggota::$ModelAnggota is deprecated in APPPATH\Controllers\DashboardAnggota.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\DashboardAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 05:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 05:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 05:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 05:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 05:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 05:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-30 05:54:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Kategori::$ModelKategori is deprecated in APPPATH\Controllers\Kategori.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Kategori->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 05:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 05:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

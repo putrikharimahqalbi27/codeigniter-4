@@ -9,6 +9,11 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+  theme: jekyll-theme-minimal
+title: Homepage Saya
+description: Tambahkan ini untuk mengikuti pembaruan proyek saya!
+
+
 navigation:
   - title: Installation
     url: index.html
